@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding: 10px;
+}
+
+form {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+input:invalid{
+    border-color: #ff0000;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+.error {
+    color: #ff0000;
+}
+.error.active {
+
+}
